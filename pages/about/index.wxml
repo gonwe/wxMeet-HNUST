@@ -1,0 +1,42 @@
+<!--pages/about/index.wxml-->
+<view class='weather-wrapper'>
+  
+<view class="container">
+  <view class="userinfo">
+     <open-data class="userinfo-avatar" type="userAvatarUrl"></open-data>
+     <open-data class="userinfo-nickname" type="userNickName" lang="zh_CN"></open-data>
+  </view>
+</view>
+</view>
+
+
+<van-collapse value="{{ activeName }}" bind:change="onChange" accordion>
+  <van-collapse-item title="程序介绍" name="1">
+    提供校园信息查询，快速链接各种需要的服务
+  </van-collapse-item>
+  <van-collapse-item title="更新历史" name="2">
+   <text>
+   2020-01-02 小程序立项
+   2020-05-02 小程序开始构建
+   2020-05-10 一边学习一边准备
+   2020-05-18 小程序大体框架搭建完成
+   2020-05-21 小程序发布测试版
+   2020-05-28 小程序发布第一个正式版
+    </text> 
+    
+  </van-collapse-item>
+  <van-collapse-item title="关于我们" name="3">
+    教育学院数媒专业毕业设计
+    <text>
+   姓名 龚卫
+   学号 1923170204
+   班级 2017级02班
+    </text> 
+  </van-collapse-item>
+   <van-collapse-item title="版本：1.0.0" name="3" disabled>
+  </van-collapse-item>
+</van-collapse>
+
+
+
+

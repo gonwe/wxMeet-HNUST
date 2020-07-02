@@ -1,0 +1,20 @@
+<!---detail.wxml-->
+<!--先静后动，先样式再数据-->
+<view class="detail-container">
+  <image class="head-image" src="{{article.poster}}"></image>
+  <view class="author-date">
+    <text class="avatar">河科师</text>
+    <text class="author">教务处</text>
+    <text class="const-text">发表于</text>
+    <text class="date">{{article.add_date}}</text>
+  </view>
+  <text class="title">{{article.title}}</text>
+  <view class="tool">
+    <view class="circle-img">
+      <image src="/images/fenxiang.png"></image>
+      <image class="share-img" src="/images/shoucang.png"></image>
+    </view>
+    <view class="horizon"></view>
+  </view>
+  <text class="detail">{{article.content}}</text>
+</view>

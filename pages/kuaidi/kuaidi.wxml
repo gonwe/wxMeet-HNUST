@@ -1,0 +1,13 @@
+<!--pages/kuaidi/kuaidi.wxml-->
+
+<!--index.wxml-->
+<view class="container">
+  <input placeholder='请输入运单号' bindinput='input'></input>
+  <button type="primary" bindtap='btnClick'>查询</button>
+  <scroll-view scroll-y style="height: 400px;">
+    <view>{{expressInfo.result.expName}}</view>
+    <view wx:for="{{expressInfo.result.list}}">
+     {{item.status}} 【{{item.time}}
+    </view>
+  </scroll-view>
+   </view>

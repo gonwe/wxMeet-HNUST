@@ -1,0 +1,10 @@
+
+
+  <!-- 通知公告 -->
+<view class="news-list">
+  <view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}" >
+    <image src="{{item.poster}}" ></image>
+    <text bindtap = 'goToDetail' data-id="{{item.id}}">{{item.title}}
+    <text class="newa-time">{{item.add_date}}</text></text>
+  </view>
+</view>

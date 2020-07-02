@@ -1,0 +1,26 @@
+
+/* 新闻列表 */
+.news-list{
+  min-height: 600rpx;
+  padding: 15rpx;
+}
+.news-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom:1rpx solid #A4C9E2;
+}
+.news-item image{
+  height: 120rpx;
+  width: 230rpx;
+  margin: 10rpx;
+}
+.news-item text{
+  margin: 10rpx;
+  width:100%;
+  line-height: 50rpx;
+  font-size:30rpx; 
+}
+.newa-time{
+  font-size:25rpx; 
+  color: #7A7E83;
+}

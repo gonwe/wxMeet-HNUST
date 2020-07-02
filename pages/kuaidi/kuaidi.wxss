@@ -1,0 +1,10 @@
+/* pages/kuaidi/kuaidi.wxss *//**index.wxss**/
+input {
+  border: 1px solid green;
+  width: 80%;
+  padding: 5px;
+  margin: 10px;
+}
+button {
+  margin: 5px;
+}

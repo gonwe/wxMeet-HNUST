@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/index",
+    "pages/tools/index",
+    "pages/about/index",
+    "pages/detail/detail",
+    "pages/navi/xygk",
+    "pages/navi/xyzy",
+    "pages/navi/xszx",
+    "pages/navi/kswd",
+    "pages/navi/zszc",
+    "pages/navi/zjsh",
+    "pages/navi/wnfs",
+    "pages/navi/yxks",
+    "pages/toolspages/xiaoli",
+    "pages/wannianli/wan",
+    "pages/phone/phone",
+    "pages/history/history",
+    "pages/weather/weather",
+    "pages/kuaidi/kuaidi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0078D7",
+    "navigationBarTitleText": "遇见科师",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#0078D7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "校园",
+        "iconPath": "images/xiaoyuan.png",
+        "selectedIconPath": "images/xiaoyuan-a.png"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "text": "发现",
+        "iconPath": "images/faxian.png",
+        "selectedIconPath": "images/faxian-a.png"
+      },
+      {
+        "pagePath": "pages/tools/index",
+        "text": "工具",
+        "iconPath": "images/gongju.png",
+        "selectedIconPath": "images/gongju-a.png"
+      },
+      {
+        "pagePath": "pages/about/index",
+        "text": "我的",
+        "iconPath": "images/wode.png",
+        "selectedIconPath": "images/wode-a.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-grid": "/miniprogram_npm/@vant/weapp/grid/index",
+    "van-grid-item": "/miniprogram_npm/@vant/weapp/grid-item/index",
+    "van-search": "/miniprogram_npm/@vant/weapp/search/index",
+    "van-divider": "/miniprogram_npm/@vant/weapp/divider/index",
+    "van-notice-bar": "/miniprogram_npm/@vant/weapp/notice-bar/index",
+    "van-tab": "/miniprogram_npm/@vant/weapp/tab/index",
+    "van-tabs": "/miniprogram_npm/@vant/weapp/tabs/index",
+    "van-tabbar": "/miniprogram_npm/@vant/weapp/tabbar/index",
+    "van-tabbar-item": "/miniprogram_npm/@vant/weapp/tabbar-item/index",
+    "van-collapse": "@vant/weapp/collapse/index",
+    "van-collapse-item": "@vant/weapp/collapse-item/index"
+  }
+}
